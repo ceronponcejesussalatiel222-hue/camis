@@ -81,7 +81,7 @@ h2{font-size:clamp(1.6rem,6vw,2.2rem);font-weight:700;margin-bottom:6px}
 <header class="hero">
   <h1>¡Feliz cumpleaños!</h1>
   <div class="n18" aria-label="18">18</div>
-  <p class="sub">para <span data-para></span></p>
+  <p class="sub">camiss <span data-para></span></p>
   <svg id="cake" viewBox="0 0 240 220" aria-hidden="true">
     <ellipse cx="120" cy="206" rx="108" ry="9" fill="rgba(0,0,0,.28)"/>
     <rect x="30" y="140" width="180" height="62" rx="14" fill="#ff5fa2"/>
@@ -146,7 +146,7 @@ h2{font-size:clamp(1.6rem,6vw,2.2rem);font-weight:700;margin-bottom:6px}
 </main>
 
 <script>
-const CONFIG={para:"Prima",de:"Tu primo/a"};
+const CONFIG={para:"Prima",de:"Tu primo"};
 const $=s=>document.querySelector(s),rm=matchMedia("(prefers-reduced-motion:reduce)").matches;
 document.querySelectorAll("[data-para]").forEach(e=>e.textContent=CONFIG.para);
 document.querySelectorAll("[data-de]").forEach(e=>e.textContent=CONFIG.de);
